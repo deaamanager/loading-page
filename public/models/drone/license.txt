@@ -1,0 +1,11 @@
+Model Information:
+* title:	Drone
+* source:	https://sketchfab.com/3d-models/drone-301fdddb9cd9420faa1174e68e0b56ab
+* author:	Mateus Schwaab (https://sketchfab.com/Mehrus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Drone" (https://sketchfab.com/3d-models/drone-301fdddb9cd9420faa1174e68e0b56ab) by Mateus Schwaab (https://sketchfab.com/Mehrus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
