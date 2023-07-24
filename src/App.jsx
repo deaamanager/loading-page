@@ -10,38 +10,42 @@ function App() {
 
   return (
     <div className="App. h-full max-w-7xl mx-auto flex flex-col items-start pl-2 md:pl-5">
-      <div className="hero. pl-2 my-28 ">
-        <h1 className="text-3xl md:text-5xl text-amber-500">
-          this loading-page from
-        </h1>
-        <p className="text. text-sm md:text-base mt-7">
-          {" "}
-          there can make your dics or write what you want about
-        </p>
+      <div className="hero. pl-2 my-28 relative  ">
+        <div className="absolute w-[20rem] h-[18rem] rounded-2xl blur bg-amber-500/60 z-0 rotate-45 top-14 -left-12 " />
+        <div className="absolute w-[20rem] h-[18rem] rounded-full bg-amber-500/60 z-0  top-12 blur -left-0 " />
 
-        <p className="text. text-sm md:text-base ">
-          {" "}
-          there can make your dics or write whatyou want
-        </p>
-        <p className="text. text-sm md:text-base ">
-          {" "}
-          there can make your dics or
-        </p>
+        <div className="z-50 relative w-full h-full top-0 left-0">
+          <h1 className="text-3xl md:text-5xl text-amber-500  ">
+            this loading-page from
+          </h1>
+          <p className="text. text-sm md:text-base mt-7">
+            {" "}
+            there can make your dics or write what you want about
+          </p>
 
-        <p className="text. text-sm md:text-base ">
-          {" "}
-          there can make your dics or write what you want about
-        </p>
+          <p className="text. text-sm md:text-base ">
+            {" "}
+            there can make your dics or write whatyou want
+          </p>
+          <p className="text. text-sm md:text-base ">
+            {" "}
+            there can make your dics or
+          </p>
 
-        <p className="text. text-sm md:text-base ">
-          {" "}
-          there can make your dics or write whatyou want
-        </p>
-        <p className="text. text-sm md:text-base ">
-          {" "}
-          there can make your dics or
-        </p>
+          <p className="text. text-sm md:text-base ">
+            {" "}
+            there can make your dics or write what you want about
+          </p>
 
+          <p className="text. text-sm md:text-base ">
+            {" "}
+            there can make your dics or write whatyou want
+          </p>
+          <p className="text. text-sm md:text-base ">
+            {" "}
+            there can make your dics or
+          </p>
+        </div>
         <div className="mt-24 md:mt-12 flex flex-col items-center justify-center  md:flex-row w-[40%]  md:w-full gap-y-10 ">
           <div className="w-full md:mr-6 relative  box  overflow-hidden flex items-center justify-center ">
             <button
@@ -325,15 +329,8 @@ function App() {
         </div>
       </div>
       {/* section 2 */}
-      <div className="flex items-center justify-center flex-row   w-full h-[14rem]  my-24 md:my-[12rem] ">
-        <div className="pl-4">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/2631/2631455.png"
-            className=" object-cover w-[80%] "
-            alt=""
-          />
-        </div>
-        <div className=" pr-8 relative">
+      <div className="flex items-center justify-center flex-row w-full h-[14rem] space-x-16  my-24 md:my-[12rem] ">
+        <div className=" pl-4 relative">
           <h1 className="text-3xl md:text-5xl text-amber-500 w-full absolute -top-24">
             <Typewriter
               loop={true}
@@ -352,6 +349,13 @@ function App() {
             {" "}
             there can make your dics or write whatyou want
           </p>
+        </div>
+        <div className="">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2631/2631455.png"
+            className=" object-cover w-[80%] "
+            alt=""
+          />
         </div>
       </div>
       {/*bezahlmethode logos */}
@@ -372,14 +376,14 @@ function App() {
             >
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
-                class="h-8 mr-3"
+                className="h-8 mr-3"
                 alt="Flowbite Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap text-[#FFBA02]/40 ">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-400 ">
                 Flowbite
               </span>
             </a>
-            <ul class="flex flex-wrap items-center justify-center mb-0 text-[8px] font-medium text-[#FFBA02]/60  ">
+            <ul className="flex flex-wrap items-center justify-center mb-0 text-[8px] font-medium text-[#FFBA02]/60  ">
               <li>
                 <a href="#" className="mr-4 hover:underline md:mr-6 ">
                   About
@@ -403,9 +407,9 @@ function App() {
             </ul>
           </div>
           <hr className="my-6 border border-[#FFBA02]/60 sm:mx-auto  lg:my-8" />
-          <span className="block md:text-base text-[11px] text-[#FFBA02]/60 text-center ">
+          <span className="block md:text-base text-[11px] text-gray-400 text-center ">
             © 2023{" "}
-            <a href="https://flowbite.com/" class="hover:underline">
+            <a href="https://flowbite.com/" className="hover:underline">
               Flowbite™
             </a>
             All Rights Reserved By Deaa Aldin Alawad
